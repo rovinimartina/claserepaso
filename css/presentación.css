@@ -1,0 +1,45 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+h3{
+    text-shadow: 2px 2px #f7dbb5;
+}
+.grid{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.grid2{
+    background-color: antiquewhite;
+    color:#567C8D;
+    padding: 3em;
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    transition: 400ms;
+    display: grid;
+    box-shadow: 5px 5px 5px rgba(159, 83, 161, 0.685);
+
+}
+
+.grid2 h3, p, label, input{
+    text-align: center;
+}
+
+
+@media (min-width:992px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .grid2{
+        grid-template-columns: 1fr 1fr 1 fr;
+    }
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

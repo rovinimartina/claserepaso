@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baúl de Diseños</title>
+    <link rel="stylesheet" href="./css/presentación.css">
+</head>
+<body>
+
+    <section class="grid">
+        <article class="grid2">
+            <h3 class="title">Bienvenida al Baúl de los diseños</h3>
+            <p>Ingresa tu usuario para continuar</p>
+            <input type="text" id="usuario" placeholder="Ingresa tu usuario"> <br>
+            <button id="comprobarBtn" onclick="comprobarUsuario()">Comprobar Usuario</button> <br>
+            <button id="ingresarBtn" style="display:none;" onclick="ingresar()"><a href="index.html" style="color: #000000; text-decoration: none;" >Ingresar</a></button> <br>
+            <div id="mensajeError" style="color: red;"></div>
+            
+        </article>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
